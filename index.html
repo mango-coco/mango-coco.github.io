@@ -8,29 +8,32 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <div class="flex justify-between">
             <div>
-                <a href="http://msu.edu" target="_blank">Michigan State University</a>
+                <p class="nomargin">
+                    <a href="http://msu.edu" target="_blank">Michigan State University</a>
+                </p>
             </div>
             
             <div>
-                <a href="http://math.msu.edu" target="_blank">Department of Mathematics</a>
+                <p class="nomargin">
+                    <a href="http://math.msu.edu" target="_blank">Department of Mathematics</a>
+                </p> 
             </div>
         </div>
 
     </header>
 
-    <main>
+    <main class = "container">
 
-        <section>
-            <div>
+        <section class="introduction-section">
+            <div class="introduction-content">
+                <img src="src/photos/WonProfilePhoto.jpg" alt="Won Profile Photo" class="profile-photo">
                 <div>
-                    <h1>Wonmyeong Cho</h1>
-                    <img src="src/photos/WonProfilePhoto.jpg" alt="Won Profile Photo" class="profile-photo">
-                </div>
-                <div>
-                    <p>I am a graduate student in the Department of Mathematics at Michigan State University. I am interested in algebraic combinatorics.</p>
+                    <h1 class="title-name">Wonmyeong Cho</h1>
+                    <h2>I am a graduate student in the Department of Mathematics at Michigan State University. </h2>
+                    <h2>My research interests span algebraic combinatorics.</h2>
                 </div>
             </div>
         </section>
@@ -38,12 +41,16 @@
         <hr>
 
         <section>
-            <h2>Notes</h2>
+            <h1>Notes</h1>
 
             <div>
                 <ul>
-                    <a href="src/pdfs/notes/realanalysis_MTH828_MSU_notes.pdf" target="_blank">MTH 828 Real Analysis Notes</a>
-                    <p>Notes for <a href="https://users.math.msu.edu/users/ikachkov/" target="_blank">Dr. Kachkovskiy's</a> MTH 828 Real Analysis course at Michigan State University written by me.</p>
+                    <li>
+                        <h2>
+                            <a href="src/pdfs/notes/realanalysis_MTH828_MSU_notes.pdf" target="_blank">MTH 828 Real Analysis Notes</a>
+                        </h2>
+                        <p class="opacity-80">Notes for <a href="https://users.math.msu.edu/users/ikachkov/" target="_blank">Dr. Kachkovskiy's</a> MTH 828 Real Analysis course at MSU written by me.</p>
+                    </li>
                 </ul>
             </div>
 
@@ -52,12 +59,12 @@
         <hr>
 
         <section id="contact">
-            <h2>Contact</h2>
+            <h1>Contact</h1>
             <ul>
-                <p>
-                    <a> email: </a>
+                <h2>
+                    email:
                     <a href="mailto:chowonmy@msu.edu">chowonmy@msu.edu</a>
-                </p>
+                </h2>
             </ul>
 
         </section>
