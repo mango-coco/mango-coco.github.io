@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-    max-width: 60rem;
+    max-width: 54rem;
     margin: 0 auto;
 }
 
@@ -119,6 +119,23 @@ header {
   padding: 2rem;
 }
 
+/* Text adjectives */
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.centertext {
+  text-align: center;
+}
+
 /* Introduction Styling */
 
 .introduction-content {
@@ -148,6 +165,13 @@ header {
   
   .profile-photo {
     flex-shrink: 0;
+  }
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+.title-name {
+    text-align: center;
   }
 }
 
